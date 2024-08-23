@@ -1,5 +1,5 @@
 {% set name = "pyometiff" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyometiff-{{ version }}.tar.gz
-  sha256: 596b7a7377a5f2e50292aa52dd22e6347a2d2f21577e93d1fcdcd63942e597f7
+  sha256: 517879948e62670009f171183065d4bc07269a24d306436bfe18007dd2e2429b
   patches:
     - require.patch
 
