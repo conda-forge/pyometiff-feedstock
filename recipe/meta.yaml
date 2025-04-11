@@ -20,7 +20,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
+    - poetry-core
   run:
     - python >={{ python_min }}
     - lxml >=5.3.2,<6.0.0
